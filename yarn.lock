@@ -472,12 +472,13 @@ callsites@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-0.2.0.tgz#afab96262910a7f33c19a5775825c69f34e350ca"
 
-card-validator@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/card-validator/-/card-validator-8.0.0.tgz#ee68db00c4351f9bf72dee5aad78cafbfc35d79b"
-  integrity sha512-rVXogmcENwpKmxo/PZdswrFu0in6L5qz2b+pt+8LMiEuW3FIvkSyO7l1ueJmIoQ/V2M3qEBic3F13o1IdvTyjw==
+card-validator@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/card-validator/-/card-validator-3.0.1.tgz#dcc2fabd6a1cd21f361b2536423a72de99a0894f"
+  integrity sha1-3ML6vWoc0h82GyU2Qjpy3pmgiU8=
   dependencies:
-    credit-card-type "^9.0.0"
+    credit-card-type "^5.0.0"
+    lodash "3.10.1"
 
 chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
@@ -535,10 +536,10 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-credit-card-type@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/credit-card-type/-/credit-card-type-9.0.0.tgz#484603f142831456a47f56f0bdcd602665060b5e"
-  integrity sha512-+q527CIkkF7U26FXS5nFTs0bSlR8MkDaK210WdPpMuJq32M7KDinQA397/D7xt9AYL0JeZn2ikZWvzY4q7riLg==
+credit-card-type@^5.0.0:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/credit-card-type/-/credit-card-type-5.0.4.tgz#2dd9df280411ce2bb91ed95ac31e814605717aed"
+  integrity sha1-LdnfKAQRziu5Htlawx6BRgVxeu0=
 
 d@1:
   version "1.0.0"
@@ -1093,6 +1094,11 @@ lodash.restparam@^3.0.0:
 lodash.values@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.values/-/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
+
+lodash@3.10.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+  integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
 lodash@^4.0.0, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.4"
