@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import valid from "card-validator";
 import CCFieldFormatter from "./CCFieldFormatter";
 import CCFieldValidator from "./CCFieldValidator";
 import compact from "lodash.compact";
@@ -51,23 +50,6 @@ export default function connectToState(CreditCardInput) {
         values: {},
         status: {},
       };
-
-      // add verve to valid card types
-      valid.creditCardType.addCard({
-        niceType: "Verve",
-        type: "verve",
-        patterns: [
-          [506099, 506198],
-          [650002, 650027],
-        ],
-        gaps: [4, 8, 12, 16],
-        lengths: [16, 19],
-        code: {
-          name: "CVV",
-          size: 3,
-        },
-      });
-      valid.creditCardType.changeOrder("verve", 3);
     }
 
     componentDidMount = () => setTimeout(() => { // Hacks because componentDidMount happens before component is rendered
