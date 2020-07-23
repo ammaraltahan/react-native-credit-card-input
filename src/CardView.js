@@ -20,7 +20,7 @@ const s = StyleSheet.create({
   icon: {
     position: 'absolute',
     top: 15,
-    right: 15,
+    left: 15,
     width: 60,
     height: 40,
     resizeMode: 'contain'
